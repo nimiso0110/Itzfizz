@@ -9,12 +9,7 @@ Next.js 14 (static export) + Tailwind CSS + GSAP ScrollTrigger.
     npm run build      # static site in ./out
     npm run preview    # serve ./out locally
 
-## Deploy to GitHub Pages
 
-1. Create a GitHub repo and push this project to its `main` branch.
-2. Repo Settings > Pages > Source: **GitHub Actions**.
-3. Push to `main`. The workflow in `.github/workflows/deploy.yml` builds with the right base path
-   (`/<repo-name>`) and publishes `out/`. Your site appears at `https://<user>.github.io/<repo-name>/`.
 
 ## Swap the car
 
